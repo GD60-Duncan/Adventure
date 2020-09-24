@@ -1,0 +1,11 @@
+C:\Users\gd60duncan\Desktop\Programing\Adventure\bin\Debug\netcoreapp3.0\Adventure.exe
+C:\Users\gd60duncan\Desktop\Programing\Adventure\bin\Debug\netcoreapp3.0\Adventure.deps.json
+C:\Users\gd60duncan\Desktop\Programing\Adventure\bin\Debug\netcoreapp3.0\Adventure.runtimeconfig.json
+C:\Users\gd60duncan\Desktop\Programing\Adventure\bin\Debug\netcoreapp3.0\Adventure.runtimeconfig.dev.json
+C:\Users\gd60duncan\Desktop\Programing\Adventure\bin\Debug\netcoreapp3.0\Adventure.dll
+C:\Users\gd60duncan\Desktop\Programing\Adventure\bin\Debug\netcoreapp3.0\Adventure.pdb
+C:\Users\gd60duncan\Desktop\Programing\Adventure\obj\Debug\netcoreapp3.0\Adventure.csprojAssemblyReference.cache
+C:\Users\gd60duncan\Desktop\Programing\Adventure\obj\Debug\netcoreapp3.0\Adventure.AssemblyInfoInputs.cache
+C:\Users\gd60duncan\Desktop\Programing\Adventure\obj\Debug\netcoreapp3.0\Adventure.AssemblyInfo.cs
+C:\Users\gd60duncan\Desktop\Programing\Adventure\obj\Debug\netcoreapp3.0\Adventure.dll
+C:\Users\gd60duncan\Desktop\Programing\Adventure\obj\Debug\netcoreapp3.0\Adventure.pdb
