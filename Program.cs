@@ -4,16 +4,12 @@ using System;
 namespace _Adventure
 {
 
-    class Program
+    class Program : nameInput
     {
         static void Main(string[] args)
         {
             Adventure.nameInput.Start();
-            //Name = Console.ReadLine();
-             //Adventure.userName.userName();
-             Console.ReadLine();
-            //Adventure.userName.userName();
-            //userName userName = new userName;
+            
             
           Console.Clear(); 
           //Player Inputs Where They Wants To Go
@@ -26,6 +22,10 @@ namespace _Adventure
           }
          
         }
+        static void meme()
+        {
+            
+        }
 
          static void LocationOutput()
         {
@@ -33,18 +33,27 @@ namespace _Adventure
             Console.WriteLine("School    Home     The Movies      Coffee Shop     Store     Chess Club    The Park    Downtown    The Docks   The Mall");
             Console.WriteLine("");
 
-            Console.WriteLine("Where would you like to go");
+            Console.WriteLine("Where would you like to go" + Name);
             string Currentlocation = Console.ReadLine().ToLower  ();
+            {
+                
+            }
+             
              Console.WriteLine(Currentlocation);
             
             {
                 Console.Clear();
                 LocationOutput();
             }
-            //if (Currentlocation.Equals("school")+("home");
+            if (Currentlocation.Equals(1))
+            Console.WriteLine("...but you realize it's a weekend");
+        else
+
             {
             
             }
-        }   
+           
+        }
+
     }
-}
+ }

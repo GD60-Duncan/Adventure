@@ -3,7 +3,7 @@ using System;
 
 namespace Adventure
 {
-    public class nameInput
+     class nameInput
     {
         
         
@@ -15,9 +15,9 @@ namespace Adventure
             Console.WriteLine("Welcome to the city, What is your name?");
             Console.WriteLine(" ");
             Console.WriteLine("Input your answer here");
-            
-
-            return;
+         //public string Name;
+           string Name = Console.ReadLine();
+           
             
         }
     }
