@@ -63,6 +63,7 @@ namespace _Adventure
             //Selects Location Based of Player Input
          
 
+<<<<<<< Updated upstream
 
           //if (currentLocation = School) {
               //Console.WriteLine(Location[One]);
@@ -83,6 +84,19 @@ namespace _Adventure
             {
                 Console.Write(Location[Two]);
                 break;
+=======
+            Console.WriteLine("Where would you like to go");
+            string Currentlocation = Console.ReadLine().ToLower  ();
+             Console.WriteLine(Currentlocation);
+            
+            {
+                Console.Clear();
+                LocationOutput();
+            }
+            //if (Currentlocation.Equals("school")+("home");
+            {
+            
+>>>>>>> Stashed changes
             }
             case "Coffee Shop":
             {
