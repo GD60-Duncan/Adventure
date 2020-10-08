@@ -31,8 +31,12 @@ namespace Adventure
          Location[Eight]= ("You head downtown");
          Location[Nine]= ("you head to the mall");
         Location[Ten] = ("You head to the docks");
+       }
+
+        class Currentlocation 
+       {
+           //public string Currentlocation 
        } 
 
-        //public static void
     }
 }

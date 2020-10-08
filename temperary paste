@@ -163,3 +163,4 @@
         {
             
         }    
+        Console.WriteLine(Currentlocation);

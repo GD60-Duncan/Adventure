@@ -17,7 +17,19 @@ class Location
     public int downtown = 8;
     public int docks = 9;
     public int mall = 10;
-    }   
+    
+     public static void Locationchange()
+     {
+         Adventure.Locations.Locationlist();
+         
+         if (Currentlocation.Equals("school"))
+            Console.WriteLine("...but you realize it's a weekend");
+        else{
+
+        }
+     } 
+    } 
+
 
 
 }

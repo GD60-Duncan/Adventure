@@ -16,9 +16,19 @@ namespace Adventure
             Console.WriteLine(" ");
             Console.WriteLine("Input your answer here");
          //public string Name;
-           string Name = Console.ReadLine();
+           //string Name = Console.ReadLine();
            
             
         }
+        class Name
+        {
+           private string _Name {get; set;}
+        }
+        public nameInput()
+        {
+
+        }
+
+        public string _Name;
     }
 }

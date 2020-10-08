@@ -10,6 +10,7 @@ namespace _Adventure
         static void Main(string[] args)
         {
             Adventure.nameInput.Start();
+            string Name = Console.ReadLine();
             
             
           Console.Clear(); 
@@ -17,6 +18,7 @@ namespace _Adventure
           Console.WriteLine("");
           LocationOutput();
           Console.WriteLine("");
+          Console.WriteLine("Goodbye " + Name);
 
           {
               
@@ -34,7 +36,7 @@ namespace _Adventure
             Console.WriteLine("School    Home     The Movies      Coffee Shop     Store     Chess Club    The Park    Downtown    The Docks   The Mall");
             Console.WriteLine("");
 
-            Console.WriteLine("Where would you like to go");
+            Console.WriteLine("Where would you like to go" );
             string Currentlocation = Console.ReadLine().ToLower  ();
          {
                //Assigns Each Location to a int (didn't really implument it but it defines each location)   
@@ -53,7 +55,7 @@ namespace _Adventure
             //Location Array
 
         string[] Location = new string[11];         
-         Location[Zero] = ("Where do you want do go");
+         Location[Zero] = ("Where do you want do go ");
          Location[One] = ("You head to the school"); 
          Location[Two] = ("You head home");  //Home
          Location[Three] = ("You head to the movies");
@@ -127,13 +129,13 @@ namespace _Adventure
 
           default:
           {
-                Console.WriteLine(Currentlocation);
-               Console.Clear();
+                Console.Clear();
                 Console.WriteLine("Sorry, That is not a valid input.");
-                Thread.Sleep(5);
+                Thread.Sleep(3500);
+                Console.Clear();
                 LocationOutput();
                
-               Console.WriteLine("Press Any Key to Exit");
+               Console.WriteLine("");
                Console.ReadLine();
             break;
           }  
