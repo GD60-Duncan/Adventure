@@ -9,18 +9,40 @@ namespace _Adventure
     {
         static void Main(string[] args)
         {
+            
+            //starts the program and asks for name
             Adventure.nameInput.Start();
             string Name = Console.ReadLine();
+            
+            //ignore this
             Player i = new Player();
             
             
           Console.Clear(); 
-          //Player Inputs Where They Wants To Go
+          
           Console.WriteLine("");
+          //calls importaint values and switch statement 
           LocationOutput();
           Console.WriteLine("");
-          Console.WriteLine("Goodbye " + Name);
+          int exit = (1); 
 
+         //once player goes to valid location reapeat again
+         //you cannot leave the program, i did this on purpose to show the location changing witout the program ending
+          do 
+          {
+              Console.Clear();
+              LocationOutput();
+              Console.WriteLine("");
+    
+          } while (exit == 1 );
+        {
+            
+        }
+
+ 
+
+          Console.WriteLine("Goodbye " + Name);
+           Thread.Sleep(3500); 
           {
               
           }
@@ -68,12 +90,9 @@ namespace _Adventure
          Location[Nine]= ("you head to the mall");
         Location[Ten] = ("You head to the docks");
            
-        //this doesn't do anything either
+        //this doesn't do anything still
         int[,] playerLocation = {{ 0 }};
 
-        //Selects Location Based of Player Input
-
-                     //Updates Current Location (not fully inplumented, it just selects currentLocation )
    
          switch (Currentlocation)
           {
@@ -130,12 +149,14 @@ namespace _Adventure
 
           default:
           {
+            //this only appears when you made a wrong input
                 Console.Clear();
                 Console.WriteLine("Sorry, That is not a valid input.");
                 Thread.Sleep(3500);
                 Console.Clear();
                 LocationOutput();
                
+            
                Console.WriteLine("");
                Console.ReadLine();
             break;

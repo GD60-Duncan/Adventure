@@ -9,6 +9,6 @@ namespace _Adventure
         {
            private string userName {get; set;}
         
-            public abstract void About();
+            public abstract void Use();
         }
 }

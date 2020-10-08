@@ -2,13 +2,13 @@
 using System;
 using System.Collections.Generic;
 
-//Sample text
+//this does nothing (noticing a trend?)
 namespace _Adventure
 {
 
     class Player : Name
     {
-        public override void About()
+        public override void Use()
         {
             throw new NotImplementedException();
         }

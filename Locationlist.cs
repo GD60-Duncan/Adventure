@@ -33,7 +33,7 @@ namespace Adventure
         Location[Ten] = ("You head to the docks");
        }
 
-       abstract class Currentlocation 
+        class Currentlocation 
        {
            //public string Currentlocation 
        } 

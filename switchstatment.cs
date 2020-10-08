@@ -3,9 +3,9 @@ using System;
 
 namespace Adventure
 {
-   class change 
+   class change : Locations
    {
-
+       //this does nothing
    }
-   
+
 }
