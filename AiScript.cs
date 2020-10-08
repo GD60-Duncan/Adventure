@@ -6,7 +6,7 @@ namespace Adventure
     class Ai : Joe
     {
         public Ai(){
-            
+
         }
     } 
 }

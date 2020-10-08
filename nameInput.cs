@@ -20,15 +20,7 @@ namespace Adventure
            
             
         }
-        class Name
-        {
-           private string _Name {get; set;}
-        }
-        public nameInput()
-        {
 
-        }
 
-        public string _Name;
     }
 }

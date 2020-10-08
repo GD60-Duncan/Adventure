@@ -22,9 +22,9 @@ class Location
      {
          Adventure.Locations.Locationlist();
          
-         if (Currentlocation.Equals("school"))
-            Console.WriteLine("...but you realize it's a weekend");
-        else{
+         //if (Currentlocation.Equals("school"))
+            //Console.WriteLine("...but you realize it's a weekend");
+        {
 
         }
      } 

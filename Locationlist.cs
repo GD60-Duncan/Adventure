@@ -3,7 +3,7 @@ using System;
 
 namespace Adventure
 {
-    public class Locations
+     class Locations
     {
        public static void Locationlist()
        {
@@ -33,7 +33,7 @@ namespace Adventure
         Location[Ten] = ("You head to the docks");
        }
 
-        class Currentlocation 
+       abstract class Currentlocation 
        {
            //public string Currentlocation 
        } 

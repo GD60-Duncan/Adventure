@@ -11,6 +11,7 @@ namespace _Adventure
         {
             Adventure.nameInput.Start();
             string Name = Console.ReadLine();
+            Player i = new Player();
             
             
           Console.Clear(); 
