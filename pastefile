@@ -1,13 +1,4 @@
-//
-using System;
-
-namespace Adventure
-{
-     class Locations : LocationInput
-    {
-       public static void Locationlist()
-       {
-         const int Zero = 0;
+ const int Zero = 0;
             const int One = 1;
             const int Two = 2;
             const int Three = 3;
@@ -18,9 +9,11 @@ namespace Adventure
             const int Eight = 8;
             const int Nine = 9;
             const int Ten = 10;
+            
+            //Location Array
 
-         string[] Location = new string[11];         
-         Location[Zero] = ("Where do you want do go");
+        string[] Location = new string[11];         
+         Location[Zero] = ("Where do you want do go ");
          Location[One] = ("You head to the school"); 
          Location[Two] = ("You head home");  //Home
          Location[Three] = ("You head to the movies");
@@ -31,12 +24,5 @@ namespace Adventure
          Location[Eight]= ("You head downtown");
          Location[Nine]= ("you head to the mall");
         Location[Ten] = ("You head to the docks");
-       }
 
-        class Currentlocation 
-       {
-           //public string Currentlocation 
-       } 
-
-    }
-}
+        , string Defultname

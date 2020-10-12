@@ -12,7 +12,6 @@ namespace _Adventure
             
             //starts the program and asks for name
             Adventure.nameInput.Start();
-            string Name = Console.ReadLine();
             
             //ignore this
             Player i = new Player();
@@ -21,7 +20,8 @@ namespace _Adventure
           Console.Clear(); 
           
           Console.WriteLine("");
-          //calls importaint values and switch statement 
+          //calls importaint values and switch statement
+          Adventure.LocationInput.locationInputPrompt(); 
           LocationOutput();
           Console.WriteLine("");
           int exit = (1); 
@@ -41,16 +41,22 @@ namespace _Adventure
 
  
 
-          Console.WriteLine("Goodbye " + Name);
-           Thread.Sleep(3500); 
+          Console.Write("Goodbye " + "name ");
+           Thread.Sleep(1000); 
           {
               
           }
          
         }
-        static void meme()
+        public static void Print(string text, int time = 35)
         {
-            
+            foreach (char c in text)
+            {
+                Console.Write(c);
+                System.Threading.Thread.Sleep(time);    
+            }
+            Console.WriteLine();
+
         }
 
          static void LocationOutput()
@@ -59,7 +65,8 @@ namespace _Adventure
             Console.WriteLine("School    Home     The Movies      Coffee Shop     Store     Chess Club    The Park    Downtown    The Docks   The Mall");
             Console.WriteLine("");
 
-            Console.WriteLine("Where would you like to go" );
+            Print("Where would you like to go" );
+             Console.WriteLine("");
             string Currentlocation = Console.ReadLine().ToLower  ();
          {
                //Assigns Each Location to a int (didn't really implument it but it defines each location)   
@@ -103,7 +110,7 @@ namespace _Adventure
             }
             case "home":
             {
-                Console.Write(Location[Two]);
+                Console.WriteLine(Location[Two]);
                 break;
             }
             case "the movies":
@@ -152,7 +159,8 @@ namespace _Adventure
             //this only appears when you made a wrong input
                 Console.Clear();
                 Console.WriteLine("Sorry, That is not a valid input.");
-                Thread.Sleep(3500);
+                Print("Try Again");
+                Thread.Sleep(3000);
                 Console.Clear();
                 LocationOutput();
                
