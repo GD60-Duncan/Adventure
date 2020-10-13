@@ -11,22 +11,21 @@ namespace Adventure
         {
             
             userName = Console.ReadLine();
-            if (userName != null)
+            if (userName != "")
             {
                 userName = new string(userName);
                 Console.Write(userName);
             }
             else
+            //if userName is blank, it assigns a defult username
              {
                  userName = new string("Ness");
-            Console.Write(" Ness ");
+            Console.Write(" Ness");
              }
         
 
 
-            //if Console.ReadLine();
            
-           //Console.Write(userName);
         }
      }
 }

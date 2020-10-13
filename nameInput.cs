@@ -14,7 +14,11 @@ namespace Adventure
         public static void Start()
         {
             
-            _Adventure.Program.Print("Welcome to the city, What is your name?");
+            _Adventure.Program.Print("Welcome to the city");
+            Thread.Sleep(500);
+            Console.WriteLine(" ");
+            _Adventure.Program.Print("What is your name?");
+            Thread.Sleep(500);
             Console.WriteLine(" ");
             Console.WriteLine("Input your answer here");
             Console.WriteLine("Your name is... ");
@@ -25,10 +29,7 @@ namespace Adventure
             Thread.Sleep(1000);
             Console.Clear();
 
-         //public string Name;
-           //string Name = Console.ReadLine();
-           
-            
+         
         }
 
 

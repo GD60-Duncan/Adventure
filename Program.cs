@@ -21,7 +21,7 @@ namespace _Adventure
           
           Console.WriteLine("");
           //calls importaint values and switch statement
-          Adventure.LocationInput.locationInputPrompt(); 
+          //Adventure.LocationInput.locationInputPrompt(); 
           LocationOutput();
           Console.WriteLine("");
           int exit = (1); 
@@ -41,7 +41,8 @@ namespace _Adventure
 
  
 
-          Console.Write("Goodbye " + "name ");
+          Console.Write("Goodbye ");
+          Adventure.Name.Playername(" " );
            Thread.Sleep(1000); 
           {
               
@@ -86,7 +87,7 @@ namespace _Adventure
 
         string[] Location = new string[11];         
          Location[Zero] = ("Where do you want do go ");
-         Location[One] = ("You head to the school"); 
+         Location[One] = ("You head to the school"); Adventure.Location.school();    
          Location[Two] = ("You head home");  //Home
          Location[Three] = ("You head to the movies");
          Location[Four] = ("You head to the coffie shop");

@@ -9,5 +9,9 @@ class Joe
      private string _Joetaro;
     private int _anger = 90;
 }
+    class dialoge
+   {
+     
+   } 
 
 }

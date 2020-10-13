@@ -8,5 +8,9 @@ namespace Adventure
         public Ai(){
 
         }
+        public bool _memory = true;
+
+        //static Random rand = newRandom();
+        
     } 
 }

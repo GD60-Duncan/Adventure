@@ -8,7 +8,9 @@ namespace Adventure
     {
         public static void locationInputPrompt()
     {
-        Console.WriteLine("Where would you like to go" );
+         _Adventure.Program.Print("Where would you like to go" );
+        
+
     }
 
     }
