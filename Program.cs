@@ -86,17 +86,17 @@ namespace _Adventure
             //Location Array
 
         string[] Location = new string[11];         
-         Location[Zero] = ("Where do you want do go ");
-         Location[One] = ("You head to the school"); Adventure.Location.school();    
-         Location[Two] = ("You head home");  //Home
-         Location[Three] = ("You head to the movies");
-         Location[Four] = ("You head to the coffie shop");
-         Location[Five] = ("You head to the store");
-         Location[Six] = ("You head to the chess club");
-         Location[Seven] = ("You head to the park");
-         Location[Eight]= ("You head downtown");
-         Location[Nine]= ("you head to the mall");
-        Location[Ten] = ("You head to the docks");
+         Location[Zero] = ("Where do you want do go.");
+         Location[One] = ("You head to the school.");     
+         Location[Two] = ("You head home.");  //Home
+         Location[Three] = ("You head to the movies.");
+         Location[Four] = ("You head to the coffie shop.");
+         Location[Five] = ("You head to the store.");
+         Location[Six] = ("You head to the chess club.");
+         Location[Seven] = ("You head to the park.");
+         Location[Eight]= ("You head downtown.");
+         Location[Nine]= ("you head to the mall.");
+        Location[Ten] = ("You head to the docks.");
            
         //this doesn't do anything still
         int[,] playerLocation = {{ 0 }};
@@ -106,7 +106,7 @@ namespace _Adventure
           {
             case "school":
             {
-                Console.WriteLine(Location[One]);
+                Console.WriteLine(Location[One]); Adventure.Location.school();
                 break;
             }
             case "home":
