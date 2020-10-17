@@ -26,3 +26,20 @@
         Location[Ten] = ("You head to the docks");
 
         , string Defultname
+
+          //private bool TestValid(string)
+        {
+            //string[] allowableCommands = new string[] {};
+            //bool valid = false;
+
+            //foreach (string test in allowableCommands);
+            {
+                //if (!valid)
+                //valid = (TestValid == response);
+            }
+        }
+
+        //static Random rand = newRandom();
+        
+    } 
+}

@@ -63,7 +63,7 @@ namespace _Adventure
          static void LocationOutput()
         {
             //string userName;
-            Console.WriteLine("School    Home     The Movies      Coffee Shop     Store     Chess Club    The Park    Downtown    The Docks   The Mall");
+            Console.WriteLine("School    Home     Theater      Coffee Shop     Store     Chess Club    The Park    Downtown    The Docks   The Mall");
             Console.WriteLine("");
 
             Print("Where would you like to go" );
@@ -111,47 +111,47 @@ namespace _Adventure
             }
             case "home":
             {
-                Console.WriteLine(Location[Two]);
+                Console.WriteLine(Location[Two]);   Adventure.Location.home();
                 break;
             }
-            case "the movies":
+            case "theater":
             {
-                Console.WriteLine(Location[Three]);
+                Console.WriteLine(Location[Three]); Adventure.Location.theater();
                 break;
             }
             case "coffee shop":
           {
-              Console.WriteLine(Location[Four]);
+              Console.WriteLine(Location[Four]);    Adventure.Location.coffieshop();
               break;
           }
           case "store":
           {
-              Console.WriteLine(Location[Five]);
+              Console.WriteLine(Location[Five]);    Adventure.Location.chessclub();
               break;
           }
           case "chess club":
           {
-              Console.WriteLine(Location[Six]);
+              Console.WriteLine(Location[Six]); Adventure.Location.chessclub();
               break;
           }
           case "the park":
           {
-              Console.WriteLine(Location[Seven]);
+              Console.WriteLine(Location[Seven]);   Adventure.Location.park();
               break;
           }
           case "downtown":
           {
-              Console.WriteLine(Location[Eight]);
+              Console.WriteLine(Location[Eight]);   Adventure.Location.downtown();
               break;
           }
           case "the mall":
           {
-              Console.WriteLine(Location[Nine]);
+              Console.WriteLine(Location[Nine]);    Adventure.Location.mall();
               break;
           }
           case "the docks":
           {
-              Console.WriteLine(Location[Ten]);
+              Console.WriteLine(Location[Ten]); Adventure.Location.mall();
               break;
           }
 
@@ -166,8 +166,9 @@ namespace _Adventure
                 LocationOutput();
                
             
-               Console.WriteLine("");
-               Console.ReadLine();
+               Console.WriteLine("Having Fun?");
+               Thread.Sleep(500);
+               
             break;
           }  
             }

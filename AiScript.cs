@@ -10,7 +10,7 @@ namespace Adventure
         }
         public bool _memory = true;
 
-        //static Random rand = newRandom();
+        
         
     } 
 }
