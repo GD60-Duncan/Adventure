@@ -22,10 +22,18 @@ namespace Adventure
                  userName = new string("Ness");
             Console.Write(" Ness");
              }
-        
 
-
+        }
+                
+//ignore this, just experienting
            
+        }
+        class setName : Name
+        {
+            public void Writename()
+        {
+          string userName = ("hi");
+          Console.Write(userName);
         }
      }
 }

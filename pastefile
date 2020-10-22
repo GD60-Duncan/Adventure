@@ -43,3 +43,37 @@
         
     } 
 }
+class PrintTime 
+{
+    public static void Day_of_the_week()
+    {
+        
+        Monday:
+        Tusday:
+        Wendsday:
+        Thursday:
+        Friday:
+        Saterday:
+        Sunday:
+        
+        
+        
+        
+        return; 
+    }
+
+   int [] dayValue = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, };
+
+        dayValue[0] = (2);
+
+
+        class setName : Name
+        {
+            public string userName
+        {
+            get {return userName;}
+            set {
+                    if (userName !="Ness"){
+                        
+                    }
+                }

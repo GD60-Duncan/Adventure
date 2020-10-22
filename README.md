@@ -1,2 +1,2 @@
 # Adventure
-//Add stuff here later
+//This game is pretty cool

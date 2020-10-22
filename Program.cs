@@ -67,7 +67,11 @@ namespace _Adventure
             Console.WriteLine("");
 
             Print("Where would you like to go" );
+            //Adventure.setName.Writename();
+
              Console.WriteLine("");
+             
+             //Adventure.Timevalue.hourValue.WriteLine();
             string Currentlocation = Console.ReadLine().ToLower  ();
          {
                //Assigns Each Location to a int (didn't really implument it but it defines each location)   
@@ -151,7 +155,7 @@ namespace _Adventure
           }
           case "the docks":
           {
-              Console.WriteLine(Location[Ten]); Adventure.Location.mall();
+              Console.WriteLine(Location[Ten]); Adventure.Location.docks();
               break;
           }
 

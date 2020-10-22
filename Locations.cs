@@ -17,7 +17,7 @@ namespace Adventure
             _Adventure.Program.Print("You realize how boring school is, so you leave.");
             Console.WriteLine("");
             Console.WriteLine("Press any key to continue");
-            Console.Read();
+            Console.ReadLine();
 
         }
         public static void home()
@@ -31,7 +31,7 @@ namespace Adventure
             _Adventure.Program.Print("With nothing better to do you leave");
             Console.WriteLine("");
             Console.WriteLine("Press any key to continue");
-            Console.Read();
+            Console.ReadLine();
             
 
         }
@@ -49,7 +49,7 @@ namespace Adventure
             _Adventure.Program.Print(" I guess");
              Console.WriteLine("");
             Console.WriteLine("Press any key to continue");
-            Console.Read();
+            Console.ReadLine();
         }
         public static void coffieshop()
         {
@@ -63,10 +63,11 @@ namespace Adventure
             _Adventure.Program.Print("But you're too shy so you leave");
              Console.WriteLine("");
             Console.WriteLine("Press any key to continue");
-            Console.Read();
+            Console.ReadLine();
         }
         public static void store()
         {
+             Console.Clear();
             _Adventure.Program.Print(" Ypu walk in even though you aren't hungry");
             _Adventure.Program.Print(" Why are you there then?");
             _Adventure.Program.Print("Prehaps for a greater purpose?");
@@ -75,53 +76,58 @@ namespace Adventure
             _Adventure.Program.Print("Probably not");
             Console.WriteLine("");
             Console.WriteLine("Press any key to continue");
-            Console.Read();
+            Console.ReadLine();
         }
         public static void chessclub()
         {
+            Console.Clear();
             _Adventure.Program.Print(" Why did i come here?");
             _Adventure.Program.Print("I don't even play chess anymore.");
             Console.WriteLine("");
             Console.WriteLine("Press any key to continue");
-            Console.Read();
+            Console.ReadLine();
 
         }
         public static void park()
         {
+             Console.Clear();
             _Adventure.Program.Print("How it would feel to be a kid again");
              _Adventure.Program.Print("I mean they look so...");
              Thread.Sleep(1000);
             _Adventure.Program.Print("Happy");
             Console.WriteLine("");
             Console.WriteLine("Press any key to continue");
-            Console.Read();
+            Console.ReadLine();
         }
         public static void downtown()
         {
+             Console.Clear();
             _Adventure.Program.Print("Wow how things change");
             _Adventure.Program.Print("I mean years ago this place looked quite diffrent...");
              Thread.Sleep(1000);
             _Adventure.Program.Print("Why do things have to change?");
             Console.WriteLine("");
             Console.WriteLine("Press any key to continue");
-            Console.Read();
+            Console.ReadLine();
         }
         public static void mall()
         {
+             Console.Clear();
             _Adventure.Program.Print("What is the meaning of life?");
             Console.WriteLine("");
             Console.WriteLine("Press any key to continue");
-            Console.Read();
+            Console.ReadLine();
         }
 
         public static void docks()
         {
+             Console.Clear();
             _Adventure.Program.Print("What a beautiful sunset. ");
             Thread.Sleep(1000);
             _Adventure.Program.Print("If only it could last.");
             Console.WriteLine("");
             Console.WriteLine("Press any key to continue");
-            Console.Read();
+            Console.ReadLine();
         }
     } 
 }
