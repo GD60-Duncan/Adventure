@@ -17,7 +17,8 @@ namespace Adventure
             _Adventure.Program.Print("You realize how boring school is, so you leave.");
             Console.WriteLine("");
             Console.WriteLine("Press any key to continue");
-            Console.ReadLine();
+            Console.ReadKey();
+            _Adventure.end.doNotendprogram();
 
         }
         public static void home()
@@ -27,11 +28,12 @@ namespace Adventure
             _Adventure.Program.Print("Not supprising considiring people are pretty busy these day's");
              _Adventure.Program.Print("It's pretty quiet here so...");
              Thread.Sleep(1000);
-            _Adventure.Program.Print("You watch some Tv untill you get board.");
+            _Adventure.Program.Print("You watch some Tv until you get board.");
             _Adventure.Program.Print("With nothing better to do you leave");
             Console.WriteLine("");
             Console.WriteLine("Press any key to continue");
-            Console.ReadLine();
+            Console.ReadKey();
+             _Adventure.end.doNotendprogram();
             
 
         }
@@ -49,9 +51,10 @@ namespace Adventure
             _Adventure.Program.Print(" I guess");
              Console.WriteLine("");
             Console.WriteLine("Press any key to continue");
-            Console.ReadLine();
+            Console.ReadKey();
+             _Adventure.end.doNotendprogram();
         }
-        public static void coffieshop()
+        public static void coffeeshop()
         {
             Console.Clear();
             _Adventure.Program.Print("You walk in even though it's the afternoon.");
@@ -63,7 +66,8 @@ namespace Adventure
             _Adventure.Program.Print("But you're too shy so you leave");
              Console.WriteLine("");
             Console.WriteLine("Press any key to continue");
-            Console.ReadLine();
+            Console.ReadKey();
+             _Adventure.end.doNotendprogram();
         }
         public static void store()
         {
@@ -76,7 +80,8 @@ namespace Adventure
             _Adventure.Program.Print("Probably not");
             Console.WriteLine("");
             Console.WriteLine("Press any key to continue");
-            Console.ReadLine();
+            Console.ReadKey();
+             _Adventure.end.doNotendprogram();
         }
         public static void chessclub()
         {
@@ -85,7 +90,8 @@ namespace Adventure
             _Adventure.Program.Print("I don't even play chess anymore.");
             Console.WriteLine("");
             Console.WriteLine("Press any key to continue");
-            Console.ReadLine();
+            Console.ReadKey();
+             _Adventure.end.doNotendprogram();
 
         }
         public static void park()
@@ -97,7 +103,8 @@ namespace Adventure
             _Adventure.Program.Print("Happy");
             Console.WriteLine("");
             Console.WriteLine("Press any key to continue");
-            Console.ReadLine();
+            Console.ReadKey();
+             _Adventure.end.doNotendprogram();
         }
         public static void downtown()
         {
@@ -108,7 +115,8 @@ namespace Adventure
             _Adventure.Program.Print("Why do things have to change?");
             Console.WriteLine("");
             Console.WriteLine("Press any key to continue");
-            Console.ReadLine();
+            Console.ReadKey();
+             _Adventure.end.doNotendprogram();
         }
         public static void mall()
         {
@@ -116,7 +124,8 @@ namespace Adventure
             _Adventure.Program.Print("What is the meaning of life?");
             Console.WriteLine("");
             Console.WriteLine("Press any key to continue");
-            Console.ReadLine();
+            Console.ReadKey();
+             _Adventure.end.doNotendprogram();
         }
 
         public static void docks()
@@ -127,7 +136,14 @@ namespace Adventure
             _Adventure.Program.Print("If only it could last.");
             Console.WriteLine("");
             Console.WriteLine("Press any key to continue");
-            Console.ReadLine();
+            Console.ReadKey();
+             _Adventure.end.doNotendprogram();
+        }
+
+        public static void win()
+        {
+            _Adventure.Program.Print("This is the end");
+            TheEnding.goodbye.TheEnding();
         }
     } 
 }

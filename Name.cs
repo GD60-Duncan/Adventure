@@ -7,6 +7,8 @@ namespace Adventure
 {
      class Name
      {
+        //yes i am aware that it is static, it's far too late for me to change it
+        
          public static void Playername(string userName)
         {
             

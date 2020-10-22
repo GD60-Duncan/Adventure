@@ -21,20 +21,12 @@ namespace _Adventure
           
           Console.WriteLine("");
           //calls importaint values and switch statement
-          //Adventure.LocationInput.locationInputPrompt(); 
+
           LocationOutput();
           Console.WriteLine("");
-          int exit = (1); 
 
          //once player goes to valid location reapeat again
          //you cannot leave the program, i did this on purpose to show the location changing witout the program ending
-          do 
-          {
-              Console.Clear();
-              LocationOutput();
-              Console.WriteLine("");
-    
-          } while (exit == 1 );
         {
             
         }
@@ -60,7 +52,7 @@ namespace _Adventure
 
         }
 
-         static void LocationOutput()
+          public static void LocationOutput()
         {
             //string userName;
             Console.WriteLine("School    Home     Theater      Coffee Shop     Store     Chess Club    The Park    Downtown    The Docks   The Mall");
@@ -69,6 +61,8 @@ namespace _Adventure
             Print("Where would you like to go" );
             //Adventure.setName.Writename();
 
+             Console.WriteLine("");
+             Console.WriteLine("type exit to leave the program");
              Console.WriteLine("");
              
              //Adventure.Timevalue.hourValue.WriteLine();
@@ -90,7 +84,7 @@ namespace _Adventure
             //Location Array
 
         string[] Location = new string[11];         
-         Location[Zero] = ("Where do you want do go.");
+         Location[Zero] = ("Congrats");
          Location[One] = ("You head to the school.");     
          Location[Two] = ("You head home.");  //Home
          Location[Three] = ("You head to the movies.");
@@ -125,7 +119,7 @@ namespace _Adventure
             }
             case "coffee shop":
           {
-              Console.WriteLine(Location[Four]);    Adventure.Location.coffieshop();
+              Console.WriteLine(Location[Four]);    Adventure.Location.coffeeshop();
               break;
           }
           case "store":
@@ -155,8 +149,13 @@ namespace _Adventure
           }
           case "the docks":
           {
-              Console.WriteLine(Location[Ten]); Adventure.Location.docks();
+              Console.WriteLine(Location[Ten]); Adventure.Location.docks(); 
               break;
+          }
+          case "exit":    
+          {
+            Console.WriteLine(Location[Zero]); Adventure.Location.win();
+            break;
           }
 
           default:
@@ -181,5 +180,20 @@ namespace _Adventure
             }
 
         }
-    }   
+    } 
+    class end
+    {
+        public static void doNotendprogram()
+        {
+            int exit = (1); 
+            
+                do 
+          {
+              Console.Clear();
+              _Adventure.Program.LocationOutput();
+              Console.WriteLine("");
+    
+          } while (exit == 1);
+        }
+    }  
 }
